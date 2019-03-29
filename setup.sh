@@ -1,11 +1,23 @@
 #!/usr/bin/env bash
 
-config=$(pwd)
+# Create a symlink to a file in this repo
+#
+# @param from The config file to link to
+# @param to   The location at which the symlink should be created
+function link {
+  local from="$1";
+  local to="$2";
+  local config=$(pwd);
+
+  rm -f "$to";
+  ln -s "${config}/${from}" "$to";
+}
 
 # Hyper
-rm ~/.hyper.js
-ln -s "${config}/hyper/.hyper.js" ~/
+link "hyper/.hyper.js" "$HOME/.hyper.js";
 
 # Visual Studio Code
-rm -f ~/Library/Application Support/Code/User/settings.json
-ln -s "${config}/vscode/settings.json" ~/Library/Application\ Support/Code/User/settings.json
+link "vscode/settings.json" "$HOME/Library/Application Support/Code/User/settings.json";
+
+# ZSH
+link "zsh/.zshrc" "$HOME/.zshrc";
