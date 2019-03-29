@@ -9,7 +9,7 @@ module.exports = {
     updateChannel: 'stable',
 
     // default font size in pixels for all tabs
-    fontSize: 13.5,
+    fontSize: 13,
 
     // font family with optional fallbacks
     fontFamily: '"Meslo LG S for Powerline", monospace',
