@@ -117,3 +117,5 @@ alias cdp="cd $HOME/projects"
 if [ -f ~/.zshrc_custom ]; then
   source ~/.zshrc_custom
 fi
+
+export GPG_TTY=$(tty)
