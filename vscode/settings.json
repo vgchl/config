@@ -1,5 +1,4 @@
 {
-    "workbench.startupEditor": "newUntitledFile",
     "workbench.iconTheme": "vs-minimal",
     "workbench.colorTheme": "Atom One Dark",
     "window.zoomLevel": 0,
@@ -17,7 +16,6 @@
     "files.exclude": {
         "**/node_modules": true
     },
-    "search.useGlobalIgnoreFiles": true,
     "emmet.showAbbreviationSuggestions": false,
     "emmet.showExpandedAbbreviation": "never",
     "editor.codeActionsOnSave": {
@@ -31,5 +29,10 @@
         "vs-kubernetes.helm-path": "/Users/teunvanvegchel/.vs-kubernetes/tools/helm/darwin-amd64/helm",
         "vs-kubernetes.minikube-path": "/Users/teunvanvegchel/.vs-kubernetes/tools/minikube/darwin-amd64/minikube",
         "vs-kubernetes.draft-path": "/Users/teunvanvegchel/.vs-kubernetes/tools/draft/darwin-amd64/draft"
-    }
+    },
+    "breadcrumbs.enabled": false,
+    "search.useIgnoreFiles": false,
+    "editor.gotoLocation.multiple": "goto",
+    "references.preferredLocation": "view",
+    "workbench.startupEditor": "newUntitledFile"
 }
