@@ -8,7 +8,6 @@
     "terminal.integrated.fontSize": 13,
     "files.trimTrailingWhitespace": true,
     "editor.tabSize": 2,
-    // "workbench.useExperimentalGridLayout": true,
     "files.eol": "\n",
     "explorer.openEditors.visible": 0,
     "explorer.confirmDragAndDrop": false,
@@ -20,7 +19,7 @@
     "emmet.showExpandedAbbreviation": "never",
     "editor.codeActionsOnSave": {
         "source.fixAll": true,
-        "source.organizeImports": true,
+        "source.organizeImports": true
     },
     "terminal.external.osxExec": "Hyper.app",
     "terminal.integrated.fontFamily": "Meslo LG S for Powerline",

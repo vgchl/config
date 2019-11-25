@@ -119,3 +119,5 @@ if [ -f ~/.zshrc_custom ]; then
 fi
 
 export GPG_TTY=$(tty)
+
+unsetopt PROMPT_SP

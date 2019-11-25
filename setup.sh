@@ -1,4 +1,6 @@
-#!/usr/bin/env bash
+#!/usr/bin/env zsh
+
+set -e;
 
 # Create a symlink to a file in this repo
 #
@@ -13,11 +15,16 @@ function link {
   ln -s "${config}/${from}" "$to";
 }
 
+# Fonts
+./fonts/setup.sh
+
 # Hyper
 link "hyper/.hyper.js" "$HOME/.hyper.js";
+link "hyper/.hyper.js" "$HOME/Library/Application Support/Hyper/.hyper.js";
+echo "Configured Hyper"
 
 # Visual Studio Code
 link "vscode/settings.json" "$HOME/Library/Application Support/Code/User/settings.json";
 
 # ZSH
-link "zsh/.zshrc" "$HOME/.zshrc";
+./zsh/setup.sh
