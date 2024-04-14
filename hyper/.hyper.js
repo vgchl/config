@@ -131,7 +131,11 @@ module.exports = {
   //   `hyperpower`
   //   `@company/project`
   //   `project#1.0.1`
-  plugins: ['hyper-one-dark', 'hypercwd', 'hyper-hide-title'],
+  plugins: [
+    'hypercwd',
+    'hyper-hide-title',
+    "hyper-one-dark"
+  ],
 
   // in development, you can create a directory under
   // `~/.hyper_plugins/local/` and include it here

@@ -1,7 +1,6 @@
 {
     "workbench.iconTheme": "vs-minimal",
     "workbench.colorTheme": "Atom One Dark",
-    "window.zoomLevel": 0,
     "editor.fontSize": 13,
     "editor.scrollBeyondLastLine": false,
     "files.insertFinalNewline": true,
@@ -33,5 +32,10 @@
     "search.useIgnoreFiles": false,
     "editor.gotoLocation.multiple": "goto",
     "references.preferredLocation": "view",
-    "workbench.startupEditor": "newUntitledFile"
+    "workbench.startupEditor": "newUntitledFile",
+    "workbench.editor.untitled.hint": "hidden",
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "security.workspace.trust.untrustedFiles": "open",
+    "window.zoomLevel": 3
 }

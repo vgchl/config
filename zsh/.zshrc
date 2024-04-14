@@ -121,3 +121,6 @@ fi
 export GPG_TTY=$(tty)
 
 unsetopt PROMPT_SP
+
+[ -s "/Users/teunvanvegchel/.jabba/jabba.sh" ] && source "/Users/teunvanvegchel/.jabba/jabba.sh"
+
